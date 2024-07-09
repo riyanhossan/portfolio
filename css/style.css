@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width: 1095px;
+}
+
+/* orange button */
+.org_button{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background: rgb(253, 110, 10);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* header start */
+.header{
+    background-image: url(../asset/images/developer.png);
+    background-repeat: no-repeat;
+}
+
+/* navbar start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 228px;
+    margin-top: 48px;
+}
+.navbar h3{
+    font-size: 43px;
+    font-weight: 800;
+}
+.navbar span{
+    color: rgb(253, 110, 10);
+}
+.navbar ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 49px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(71, 71, 71);
+}
+.nav_button{
+    padding: 17px 34.5px 17px 34.5px;
+    font-weight: 700;
+}
+
+/* banner start */
+.banner{
+}
+.banner_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    background-image: url(../asset/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.banner_content_item{
+    margin-left: 228px;
+}
+.banner_content_item h6{
+    font-size: 42px;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+.banner_content_item h3{
+    font-size: 82px;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    padding: 5px 0px 19px;
+}
+.banner_content_item p{
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    padding-right: 156px;
+    padding-bottom: 29px;
+}
+.banner_content_item button{
+    padding: 16px 26px;
+    
+}
+.banner_white_bt{
+    background: white; 
+    color: rgb(253, 110, 10);
+    border: 1px rgb(253, 110, 10) solid;
+    margin-left: 29px;
+}
+.banner_content img{
+    margin-right: 25px;
+}
+
+/* about start */
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about_content{
+    width: 1095px;
+    height: 528px;
+    margin-top: 125px;
+    background-color: rgb(253, 244, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_content_item{
+    width: 794px;
+    height: 275px;
+    border: 1px black solid;
+    background: white;
+}
+.about_content_item h3{
+    color: rgb(24, 24, 24);
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.about_content_item p{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+    text-align: center;
+}
+.about_foot{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    margin-top: 30px;
+}
+.about_foot p{
+    text-align: center;
+    position: relative;
+    /* top: 100%; */
+}
+.about_foot span{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+}
+
+/* what start */
+.what{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+}
+.what h3{
+    text-align: center;
+    color: rgb(24, 24, 24);
+    font-size: 34px;
+    font-weight: 700;
+}
+.what_p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    margin: 29px 111px 48px 111px;
+}
+.what_content_lower{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.what_lower_item{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    padding: 29px 32px;
+}
+.what_lower_item h6{
+    font-size: 19px;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    margin-top: 29px;
+    margin-bottom: 19px;
+}
+.what_lower_item p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    /* margin-bottom: 10px; */
+}
+
+/* resume start */
+.resume{
+    display: flex;
+    justify-content: center;
+}
+.resume_head{
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 108px;
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+.resume_btn{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 109px;
+}
+.resume_btn button{
+    padding: 16px 20px;
+}
+.resume_content{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    /* align-items: center; */
+}
+.resume_content_item h2{
+    font-size: 29px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-bottom: 29px;
+}
+.resume_item_el h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+.resume_item_el h6{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    margin-bottom: 19px;
+}
+.resume_item_el p{
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    padding-right: 50px;
+}
+.resume_item_el hr{
+    color: rgb(209, 209, 209);
+    margin-bottom: 29px;
+}
+
+/* footer start */
+.footer{
+    background: rgb(253, 244, 237);
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+}
+.footer_content_item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+.footer_item_el_st{
+    width: 50%;
+}
+.footer_item_el_st h2{
+    font-size: 34px;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    margin-top: 124px;
+}
+.footer_item_el_st p{
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    margin-top: 19px;
+    margin-bottom: 29px;
+}
+.footer_item_el_st img{
+    margin-right: 24px;
+}
+.footer_item_el_nd{
+    width: 50%;
+    margin-left: 112px;
+}
+.footer_item_el_nd h2{
+    font-size: 34px;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    margin-top: 124px;
+    margin-bottom: 27px;
+}
+.footer_item_el_nd form input{
+    display: block;
+    width: 442px;
+    height: 61px;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+}
+.footer_item_el_nd form textarea{
+    display: block;
+    width: 442px;
+    height: 172px;
+    resize: none;
+    padding-top: 17px;
+    padding-left: 29px;
+    border: none;
+    margin-bottom: 23px;
+}
+.footer_item_el_nd form button{
+    padding: 18px 37px 18px 37px;
+    font-weight: 700;
+}
